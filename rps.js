@@ -78,7 +78,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 // Repeat game 5 times
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 500; i++) {
   let computerSelection = getComputerChoice();
   let playerSelection = getPlayerChoice();
   playRound(playerSelection, computerSelection);
