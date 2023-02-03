@@ -1,4 +1,4 @@
-// // Check input for Rock Paper or Scissors
+// Check input for Rock Paper or Scissors
 function checkInput(input1) {
   if (input1 === "rock" || input1 === "paper" || input1 === "scissors") {
     return input1;  // Accept input if its a match
@@ -14,10 +14,10 @@ function rePrompt(input2) {
 }
 
 // Take user input
-function getPlayerChoice(params) {
-  let input = prompt("Choose among Rock, Paper and Scissors:").toLowerCase();
-  return checkInput(input);  //Transfer to checking function
-}
+// function getPlayerChoice(params) {
+//   let input = prompt("Choose among Rock, Paper and Scissors:").toLowerCase();
+//   return checkInput(input);  //Transfer to checking function
+// }
 
 
 
